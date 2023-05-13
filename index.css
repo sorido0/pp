@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(./the-fast-and-the-furious-collection-5ae5a6c9470bf.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: whitesmoke;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1 {
+    font-size: 85px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.header-txt p {
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px;
+}
+
+.general {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.general-content {
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.general-1 {
+    background-image: url(/16220408590543.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 180px 300px;
+    margin-bottom: 40px;
+}
+
+
+.general-2 {
+    background-image: url(1366_2000.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 180px 300px;
+    margin-bottom: 40px;
+}
+
+
+.circle-1 {
+    background-image: url(6485821249036486145_23.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 180px 300px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+
+h3 {
+    font-size: 18px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 20;
+}
+
+.info-content {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.info-content h3, span {
+    color: whitesmoke;
+}
+
+.info-circle {
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+body {
+    background-color: black;
+}
